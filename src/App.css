@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.navbar-setting {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(187, 22, 187); /* Your desired purple color */
+}
+.navbar-setting .navbar-brand,
+.navbar-setting .nav-link,
+.navbar-setting .nav-dropdown-item {
+  color: white; /* Adjust text color for better contrast */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-setting .nav-link:hover,
+.navbar-setting .nav-dropdown-item:hover {
+  color: lightgray; /* Adjust hover text color */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.me-auto {
+  float: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
