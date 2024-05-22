@@ -1,18 +1,19 @@
 import './App.css';
-import {Switch, Route} from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Home from './customer/Home';
 import Login from './customer/Login';
 import Register from './customer/Register';
 
 function App() {
   return (
-    <div>
-      <Switch>
-        <Route exact path='/'><Home /></Route>
-        <Route path='/login'><Login /></Route>
-        <Route path='/register'><Register /></Route>
-      </Switch>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/register' element={<Register />} />
+      </Routes>
+    </Router>
   );
 }
 
