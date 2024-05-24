@@ -1,7 +1,6 @@
 import React, { useContext, useRef, useState } from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.css'; 
-import burger_icon from '../Assets/burger_icon.png';
 import nav_dropdown from '../Assets/nav_dropdown.png'
 import cart_icon from '../Assets/cart_icon.png'
 
@@ -23,7 +22,6 @@ function NavigationBar() {
   return (
     <div class="navbar">
       <a class="nav-logo" href="/home">Navbar</a>
-      {/* <img src={burger_icon} alt="Menu" className="burger-icon" onClick={toggleMenu} /> */}
       <img onClick={dropdown_toggle} className='nav-dropdown' src={nav_dropdown} alt="" />
       <ul className={`nav-menu ${showMenu ? 'show' : ''}`}>
         <li onClick={()=>{setMenu("TCG")}} href="#">TCG </li>
