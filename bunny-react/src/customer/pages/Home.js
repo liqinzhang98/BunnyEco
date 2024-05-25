@@ -1,8 +1,9 @@
 import React from 'react';
 import NavigationBar from '../components/navigationBar/Navbar';
-import hand_icon from '../components/Assets/hand_icon.png'
-import arrow_icon from '../components/Assets/arrow.png'
-import hero_image from '../components/Assets/hero_image.png'
+import hand_icon from '../components/Assets/hand_icon.png';
+import arrow_icon from '../components/Assets/arrow.png';
+import hero_image from '../components/Assets/hero_image.png';
+import Footer from '../components/footer/Footer';
 import './Home.css';
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
             <div className="hero-right">
                 <img src={hero_image} alt="" />
             </div>
+            <Footer/>
         </div>
     )
 }

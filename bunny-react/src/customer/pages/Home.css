@@ -4,10 +4,10 @@
     display: block;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 9%;
 }
 .hero-left{
     line-height: 1.1;
+    padding: 10px 9%;
 }
 .hero-left h2{
     color: #090909;
@@ -48,6 +48,7 @@
 
 .hero-right img{
     width: 450px;
+    padding: 10px 9%;
 }
 
 @media(max-width:1200px){

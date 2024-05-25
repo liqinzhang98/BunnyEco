@@ -21,7 +21,7 @@ function NavigationBar() {
 
   return (
     <div class="navbar">
-      <a class="nav-logo" href="/home">Navbar</a>
+      <a class="nav-logo" href="/home">BunnyCollectables</a>
       <img onClick={dropdown_toggle} className='nav-dropdown' src={nav_dropdown} alt="" />
       <ul className={`nav-menu ${showMenu ? 'show' : ''}`}>
         <li onClick={()=>{setMenu("TCG")}} href="#">TCG </li>
