@@ -3,6 +3,7 @@ import NavigationBar from '../components/navigationBar/Navbar';
 import hand_icon from '../components/Assets/hand_icon.png'
 import arrow_icon from '../components/Assets/arrow.png'
 import hero_image from '../components/Assets/hero_image.png'
+import './Home.css';
 
 const Home = () => {
     return (
