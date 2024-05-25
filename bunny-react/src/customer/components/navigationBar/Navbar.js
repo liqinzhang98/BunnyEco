@@ -2,8 +2,9 @@ import React, { useContext, useRef, useState } from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.css'; 
 import nav_dropdown from '../Assets/nav_dropdown.png'
-import cart_icon from '../Assets/cart_icon.png'
-
+import cart_icon from '../Assets/cart_icon.png';
+import Form from 'react-bootstrap/Form';
+import search_icon from '../Assets/search_icon.png';
 
 function NavigationBar() {
 
@@ -28,6 +29,15 @@ function NavigationBar() {
         <li onClick={()=>{setMenu("BoardGames")}} href="#">BoardGames </li>
         <li onClick={()=>{setMenu("Accessories")}} href="#">Accessories </li>
       </ul>
+      <Form className="search-bar">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="type-space"
+              aria-label="Search"
+            />
+            <Link class="search-button"to='/items'><img src={search_icon} alt="" /></Link>
+        </Form>
       <div class="nav-login-register-cart">
         <Link to='/login'><button>Login</button></Link>
         <Link to="/register"><button>Register</button></Link>

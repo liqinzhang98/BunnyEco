@@ -4,7 +4,9 @@
     align-items: center;
     box-shadow: 0 1px 3px -2px rgb(18, 11, 11);
     padding: 15px 70px;
-    background: linear-gradient(180deg, #b164b1, #88b89322 70%);
+    /* background: linear-gradient(180deg, #b164b1, #88b89322 70%); */
+    background-color: #b78ab7;
+    
 }
 .nav-logo{
     display: flex;
@@ -52,7 +54,7 @@
     color: #eee8e8;
     font-size: 18px;
     font-weight: 100;
-    background: rgb(141, 138, 141);
+    background: rgb(133, 68, 133);
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
@@ -81,6 +83,27 @@
 .nav-dropdown{
     display: none;
 }
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.type-space{
+    width: 300px;
+    height: 50px;
+    border: 2mm ridge #a75890;
+    flex: 1;
+}
+.search-bar img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+    background: rgb(188, 126, 159);
+    border: thick double #bbcad0;
+}
+
 @media(max-width:900px){
     .navbar{
         padding: 15px 40px;
