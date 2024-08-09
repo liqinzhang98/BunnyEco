@@ -38,6 +38,8 @@ function NavigationBar() {
             />
             <Link class="search-button"to='/items'><img src={search_icon} alt="" /></Link>
         </Form>
+
+      
       <div class="nav-login-register-cart">
         <Link to='/login'><button>Login</button></Link>
         <Link to="/register"><button>Register</button></Link>
@@ -45,6 +47,8 @@ function NavigationBar() {
         <div className="nav-cart-count">2</div> 
       </div>
     </div>
+
+
   );
 }
 
