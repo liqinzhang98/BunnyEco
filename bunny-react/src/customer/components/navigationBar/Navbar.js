@@ -5,6 +5,7 @@ import nav_dropdown from '../Assets/nav_dropdown.png'
 import cart_icon from '../Assets/cart_icon.png';
 import Form from 'react-bootstrap/Form';
 import search_icon from '../Assets/search_icon.png';
+import bunny_icon from '../Assets/bunny_logo.png';
 
 function NavigationBar() {
 
@@ -22,7 +23,7 @@ function NavigationBar() {
 
   return (
     <div class="navbar">
-      <a class="nav-logo" href="/home">BunnyCollectables</a>
+      <a class="nav-logo" href="/home"><img src={bunny_icon} alt="" /></a>
       <img onClick={dropdown_toggle} className='nav-dropdown' src={nav_dropdown} alt="" />
       <ul className={`nav-menu ${showMenu ? 'show' : ''}`}>
         <li onClick={()=>{setMenu("TCG")}} href="#">TCG </li>

@@ -5,7 +5,7 @@
     box-shadow: 0 1px 3px -2px rgb(18, 11, 11);
     padding: 15px 70px;
     /* background: linear-gradient(180deg, #b164b1, #88b89322 70%); */
-    background-color: #b78ab7;
+    background-color: #443473;
     
 }
 .nav-logo{
@@ -13,21 +13,21 @@
     align-items: center;
     gap: 10px;
 }
-/* .nav-logo img{
-    width: 45px;
+.nav-logo img{
+    width: 300px;
 }
 .nav-logo p{
     color: #171717;
     font-size: 28px;
     font-weight: 600;
-} */
+}
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
     gap: 40px;
-    color: #0e0707;
-    font-size: 16px;
+    color: #e4d4d4;
+    font-size: 20px;
     font-weight: 500;
 }
 .nav-menu li{
