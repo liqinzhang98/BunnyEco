@@ -10,11 +10,11 @@
 }
 .nav-logo{
     display: flex;
-    align-items: center;
-    gap: 10px;
+    align-items: left;
+    gap: 1px;
 }
 .nav-logo img{
-    width: 300px;
+    width: 150px;
 }
 .nav-logo p{
     color: #171717;
